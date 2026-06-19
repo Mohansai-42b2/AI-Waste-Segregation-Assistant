@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* scroll remove */
+}
+
+.container{
+    background:white;
+    width:400px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:#BF8B2E;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#BF8B2E;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#9c7021;
+}
+
+#result{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+/* .logo{
+    width:100px;
+    height:auto;
+    display:block;
+    margin:10px auto;
+    background:transparent;
+}
+
+.banner{
+    width:150px;
+    height:auto;
+    display:block;
+    margin:15px auto;
+}
+
+.recycle{
+    width:60px;
+    height:auto;
+    display:block;
+    margin:15px auto;
+} */
+
+ /* SDG Logo */
+img:first-of-type {
+    width: 100px;
+}
+
+/* Waste Bin Image */
+img:nth-of-type(2) {
+    width: 180px;
+    height: auto;
+}
+
+/* Recycle Image */
+img:nth-of-type(3) {
+    width: 100px;
+    height: auto;
+}
